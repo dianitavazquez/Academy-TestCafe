@@ -1,0 +1,20 @@
+{
+  "name": "academyTestCafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testcafe:chrome": "testcafe chrome ./tests -e",
+    "testcafe:safari": "testcafe safari ./tests -e",
+    "testcafe:firefox": "testcafe firefox ./tests -e",
+    "testcafe:allBrowsers": "testcafe all ./tests -e",
+    "testcafe:remoteQRCode": "testcafe remote ./tests -e --qr-code"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.1.4"
+  }
+}
